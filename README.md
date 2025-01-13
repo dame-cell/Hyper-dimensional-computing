@@ -19,12 +19,7 @@ is to represent inputs 𝑥 ∈ X by projecting them onto a hyperspace H = {0, 1
 representations 𝜙 (𝑥) are named hypervectors.
 
 # Experiments and Testings 
-
-
-<p align="center">
-  <img src="images/hdcmnist40k.png" width="600"/>
-</p>
-
+coming soon ... 
 ### Getting started 
 coming soon ... 
 # Acknowledgement 
