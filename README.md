@@ -19,16 +19,14 @@ is to represent inputs 𝑥 ∈ X by projecting them onto a hyperspace H = {0, 1
 representations 𝜙 (𝑥) are named hypervectors.
 
 # Experiments and Testings 
-We evaluated the performance of our classification model, and the results are displayed below. Additionally, we used heatmaps to gain insights into the areas of the input data the model focused on during learning.
 
-<p align="center">
-  <img src="images/hdcmnistacc.png" width="500"/>
-</p>
 
 <p align="center">
   <img src="images/hdcmnist40k.png" width="600"/>
 </p>
 
+### Getting started 
+coming soon ... 
 # Acknowledgement 
 
 ```bash
