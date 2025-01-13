@@ -22,6 +22,9 @@ representations 𝜙 (𝑥) are named hypervectors.
 coming soon ... 
 ### Getting started 
 coming soon ... 
+
+# Plans 
+I want to somehow be able to incorporate a pre-trained LLM with the HDC somehow not sure yet 
 # Acknowledgement 
 
 ```bash
