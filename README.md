@@ -10,7 +10,37 @@ This project is an experiment to explore and understand Hyper-Dimensional Comput
 >[!IMPORTANT]
 > Everything in this repo is a mix of learning and experimentation by me—nothing is final or polished!
 
+
+> Hyperdimensional Computing (HDC) is a computation model
+that relies on very high dimensionality and randomness. Inspired by neuroscience, it seeks to mimic and exploit important characteristics of the animal brain while balancing
+accuracy, efficiency and robustness. The central idea
+is to represent inputs 𝑥 ∈ X by projecting them onto a hyperspace H = {0, 1}
+𝑑,with 𝑑 ≈ 10,000 dimensions. This mapping 𝜙 : X → H is called encoding, and the resulting
+representations 𝜙 (𝑥) are named hypervectors.
+
+# Experiments and Testings 
+We evaluated the performance of our classification model, and the results are displayed below. Additionally, we used heatmaps to gain insights into the areas of the input data the model focused on during learning.
+
+<p align="center">
+  <img src="images/hdcmnistacc.png" width="500"/>
+</p>
+
+<p align="center">
+  <img src="images/hdcmnist40k.png" width="600"/>
+</p>
+
 # Acknowledgement 
+
+```bash
+@misc{nunes2025,
+  author = {Igor Nunes and Mike Heddes and Tony Givargis and Alexandru Nicolau},
+  title = {An Extension to Basis-Hypervectors for Learning from Circular Data in Hyperdimensional Computing},
+  year = {2025},
+  note = {Accessed: 2025-01-13},
+  institution = {Department of Computer Science, University of California, Irvine},
+  url = {https://arxiv.org/pdf/2205.07920}    
+}
+```
 
 ```bash
 @misc{stock2022,
