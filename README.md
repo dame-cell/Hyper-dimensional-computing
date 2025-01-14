@@ -11,13 +11,6 @@ This project is an experiment to explore and understand Hyper-Dimensional Comput
 > Everything in this repo is a mix of learning and experimentation by me—nothing is final or polished!
 
 
-> Hyperdimensional Computing (HDC) is a computation model
-that relies on very high dimensionality and randomness. Inspired by neuroscience, it seeks to mimic and exploit important characteristics of the animal brain while balancing
-accuracy, efficiency and robustness. The central idea
-is to represent inputs 𝑥 ∈ X by projecting them onto a hyperspace H = {0, 1}
-𝑑,with 𝑑 ≈ 10,000 dimensions. This mapping 𝜙 : X → H is called encoding, and the resulting
-representations 𝜙 (𝑥) are named hypervectors.
-
 # Experiments and Testings 
 coming soon ... 
 ### Getting started 
