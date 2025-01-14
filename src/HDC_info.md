@@ -60,3 +60,19 @@ l*(x̂) = argmin[i ∈ {1,...,k}] δ(φ(x̂), Mi)
 Where:
 - l*(x̂) ∈ {1,...,k} is the predicted class
 - δ is the similarity metric
+
+### The importance of Quasi-orthogonal
+
+When we create random vectors in high-dimensional space, they tend to be almost perpendicular to each other (quasi-orthogonal)
+Because they're random, the chance of getting any specific vector is extremely low
+This low probability means each vector carries a lot of information
+
+* Why Quasi-Orthogonal is Better Than Perfectly Orthogonal:
+
+In a d-dimensional space:
+You can only have d perfectly perpendicular (orthogonal) vectors
+But you can have almost 2^d quasi-orthogonal vectors
+
+For example: in 1000-dimensional space:
+You can only have 1000 perfectly orthogonal vectors
+But you can have almost 2^1000 quasi-orthogonal vectors (an enormous number)
