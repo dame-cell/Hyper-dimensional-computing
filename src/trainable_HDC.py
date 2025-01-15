@@ -25,7 +25,7 @@ def parse_args():
                         help='batch size (default: 24)')
     parser.add_argument('--data_dir', type=str, default='./data',
                         help='data directory (default: ./data)')
-    parser.add_argument('--epcohs', type=int, default='10',
+    parser.add_argument('--epochs', type=int, default='10',
                         help='how many iterations to train the model')
     return parser.parse_args()
 
