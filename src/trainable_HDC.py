@@ -17,13 +17,13 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Trainable HD Computing Classification')
     parser.add_argument('--dimensions', type=int, default=10000,
                         help='number of dimensions (default: 10000)')
-    parser.add_argument('--img-size', type=int, default=28,
+    parser.add_argument('--img_size', type=int, default=28,
                         help='input image size (default: 28)')
-    parser.add_argument('--num-levels', type=int, default=1000,
+    parser.add_argument('--num_levels', type=int, default=1000,
                         help='number of levels (default: 1000)')
-    parser.add_argument('--batch-size', type=int, default=24,
+    parser.add_argument('--batch_size', type=int, default=24,
                         help='batch size (default: 24)')
-    parser.add_argument('--data-dir', type=str, default='./data',
+    parser.add_argument('--data_dir', type=str, default='./data',
                         help='data directory (default: ./data)')
     parser.add_argument('--epcohs', type=int, default='10',
                         help='how many iterations to train the model')
@@ -33,18 +33,14 @@ def parse_args():
 
 def main():
     args = parse_args()
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print("Using {} device".format(device))
-
     # Data Preparation
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     transform = transforms.Compose([
         transforms.ToTensor(),
-        transforms.Normalize((0.5,), (0.5,))
     ])
 
-
-    train_ds = torchvision.datasets.FashionMNIST(root=args.data_dir, train=True, download=True, transform=transform)
-    test_ds = torchvision.datasets.FashionMNIST(root=args.data_dir, train=False, download=True, transform=transform)
+    train_ds = torchvision.datasets.MNIST(root='./data', train=True, download=True, transform=transform)
+    test_ds = torchvision.datasets.MNIST(root='./data', train=False, download=True, transform=transform)
     train_ld = torch.utils.data.DataLoader(train_ds, batch_size=args.batch_size, shuffle=True)
     test_ld = torch.utils.data.DataLoader(test_ds, batch_size=args.batch_size, shuffle=False)
 
