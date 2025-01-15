@@ -113,3 +113,6 @@ def main():
                 correct += (predicted == labels).sum().item()
 
         print(f"Test Accuracy: {100 * correct / total:.2f}%")
+
+if __name__ == "__main__":
+    main()
