@@ -76,3 +76,5 @@ But you can have almost 2^d quasi-orthogonal vectors
 For example: in 1000-dimensional space:
 You can only have 1000 perfectly orthogonal vectors
 But you can have almost 2^1000 quasi-orthogonal vectors (an enormous number)
+
+### Trainble High Dimensional Computing 
